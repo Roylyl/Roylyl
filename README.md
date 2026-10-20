@@ -1,130 +1,92 @@
-<p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Roy Luo罗宇伦——从电路到代码，从声音到体验">
-</p>
+<p align="center"><img src="assets/hero.svg" width="100%" alt="你好，我是罗宇伦Roy Luo。硬件、音频、代码与音乐。"></p>
 
-<h1 align="center">你好，我是罗宇伦Roy Luo</h1>
+<h1 align="center">⚡ Welcome to Roylyl’s Lab ⚡</h1>
 
-<p align="center">硬件与嵌入式开发者 · 端侧AI音频实践者 · Desk Park乐队吉他手</p>
-<p align="center">关注消费电子与音频系统，把电路、算法和软件连接成可以实际使用的产品。</p>
+<p align="center"><img src="assets/roles.svg" width="90%" alt="嵌入式开发 / 端侧AI音频 / 编程与吉他"></p>
 
-<p align="center">
-  <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/Portfolio-roylyl.github.io-65E5C1?style=flat-square&amp;labelColor=14212D" alt="个人官网"></a>
-  <a href="mailto:L3092105572@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-7CB7FF?style=flat-square&amp;labelColor=14212D" alt="通过邮件联系我"></a>
-  <a href="https://github.com/Roylyl?tab=followers"><img src="https://img.shields.io/github/followers/Roylyl?style=flat-square&amp;label=Followers&amp;color=65E5C1&amp;labelColor=14212D" alt="GitHub关注者"></a>
-  <a href="https://github.com/Roylyl?tab=repositories"><img src="https://img.shields.io/github/stars/Roylyl?style=flat-square&amp;label=GitHub%20Stars&amp;color=7CB7FF&amp;labelColor=14212D" alt="GitHub项目获星"></a>
-</p>
+<p align="center"><a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="PORTFOLIO"></a> <a href="mailto:L3092105572@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="EMAIL"></a> <a href="https://www.instagram.com/roylyl06/"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="INSTAGRAM"></a> <a href="https://github.com/Roylyl?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-2563EB?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="PROJECTS"></a></p>
 
-<p align="center">
-  <a href="#about">关于我</a> · <a href="#hardware">硬件作品</a> · <a href="#opensource">开源项目</a> · <a href="#toolbox">技术工具</a> · <a href="#experience">实践经历</a> · <a href="#music">音乐</a> · <a href="#connect">联系</a>
-</p>
+<p align="center"><a href="https://github.com/Roylyl?tab=followers"><img src="https://img.shields.io/github/followers/Roylyl?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=22d3ee&amp;labelColor=171b34" alt="GitHub关注者"></a> <a href="https://github.com/Roylyl?tab=repositories"><img src="https://img.shields.io/github/stars/Roylyl?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=fbbf24&amp;labelColor=171b34" alt="GitHub项目获星"></a></p>
 
-<a id="about"></a>
-## 关于我
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
-我就读于湖南农业大学卓越工程师学院智能科学与技术专业，预计2028年毕业。目前在雷鸟创新担任AI音频算法实习生，围绕声音事件、环境场景和语音识别开展端侧模型接入与对照测试。
+<h2 align="center">👾 PLAYER PROFILE</h2>
 
-我喜欢从一个具体的使用问题出发：让不同品牌的耳机一起播放，让声音朝指定方向传播，让电脑接收CarPlay，也让音频模型能在设备上被方便地比较和使用。
+<p align="center"><img src="assets/terminal.svg" width="100%" alt="罗宇伦，智能科学与技术本科生，雷鸟创新AI音频算法实习生，硬件与多端开发，Desk Park吉他手"></p>
 
-| 正在投入的方向 | 我做的事情 |
-| --- | --- |
-| 硬件与嵌入式 | 从原理图、PCB、焊接到板级调试，搭建蓝牙与音频链路 |
-| 端侧AI音频 | 接入声音事件、环境场景与ASR模型，处理前处理、推理与结果记录 |
-| 多端产品体验 | 连接Android、iOS、Apple Watch、桌面端与网页中的设备交互 |
-| 音乐与声音 | 在乐队演出、音色和编曲实践中理解音频设备的真实使用体验 |
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
-<a id="hardware"></a>
-## 硬件作品｜把想法做成设备
+<h2 align="center">🛠️ HARDWARE × REAL WORLD</h2>
 
 <table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://roylyl.github.io/soundshare.html"><img src="assets/soundshare.webp" height="180" alt="音享贴LENGHE SoundShare应用图标"></a>
-      <h3>音享贴 · LENGHE SoundShare</h3>
-      <p>跨生态多人蓝牙音频共享设备</p>
-      <p>个人独立完成首版PCB、嵌入式音频链路和多端控制。连接音源与多个播放终端，支持独立音量、声道分配和同步校准。</p>
-      <p><code>A2DP</code> <code>PCB</code> <code>Android/iOS</code> <code>Apple Watch</code></p>
-      <p><a href="https://roylyl.github.io/soundshare.html">查看设计与项目演示 →</a></p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://roylyl.github.io/ultrasonic.html"><img src="assets/ultrasonic.webp" height="180" alt="超声波定向扬声器概念图，非实物照片"></a>
-      <h3>超声波定向扬声器</h3>
-      <p>让声音朝指定方向传播</p>
-      <p>作为项目负责人，搭建蓝牙PCM接收、实时缓存、40kHz超声调制、功率放大与换能器阵列组成的定向发声链路。</p>
-      <p><code>ESP32</code> <code>PCM</code> <code>PWM</code> <code>KiCad</code></p>
-      <p><a href="https://roylyl.github.io/ultrasonic.html">查看工程样机与项目介绍 →</a></p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" align="center"><a href="https://roylyl.github.io/soundshare.html"><img src="assets/soundshare.webp" height="190" alt="音享贴应用图标"></a><h3>🎧 音享贴SoundShare</h3><p>一份音乐，多个终端。</p><p><code>PCB</code> <code>A2DP</code> <code>多端控制</code></p><a href="https://roylyl.github.io/soundshare.html"><img src="https://img.shields.io/badge/EXPLORE-SOUNDSHARE-22d3ee?style=for-the-badge" alt="查看音享贴"></a></td>
+<td width="50%" align="center"><a href="https://roylyl.github.io/ultrasonic.html"><img src="assets/ultrasonic.webp" height="190" alt="超声波定向扬声器概念图"></a><h3>🔊 超声波定向扬声器</h3><p>让声音，有方向。</p><p><code>ESP32</code> <code>40kHz</code> <code>超声调制</code></p><a href="https://roylyl.github.io/ultrasonic.html"><img src="https://img.shields.io/badge/EXPLORE-ULTRASONIC-a78bfa?style=for-the-badge" alt="查看定向扬声器"></a></td>
+</tr>
 </table>
 
-<a id="opensource"></a>
-## 开源项目｜连接设备，也连接体验
+<p align="center"><a href="https://roylyl.github.io/soundshare.html"><img src="assets/soundshare-controls.webp" width="86%" alt="音享贴iPad控制端界面"></a><br><sub>音享贴 · 从电路到多端控制</sub></p>
 
-### CarPlay接收应用
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
-把熟悉的CarPlay体验带到不同设备上。
+<h2 align="center">🚀 OPEN SOURCE ARCADE</h2>
 
-| 项目 | 平台 | 用途 | 关注 |
-| --- | --- | --- | --- |
-| [WinPlay](https://github.com/Roylyl/WinPlay) | Windows | 无线CarPlay接收，支持本机热点与局域网连接 | [![WinPlay Stars](https://img.shields.io/github/stars/Roylyl/WinPlay?style=flat-square&label=Stars&color=65E5C1)](https://github.com/Roylyl/WinPlay/stargazers) |
-| [MacPlay](https://github.com/Roylyl/MacPlay) | macOS | 原生CarPlay接收，支持USB或共用Wi-Fi连接 | [![MacPlay Stars](https://img.shields.io/github/stars/Roylyl/MacPlay?style=flat-square&label=Stars&color=65E5C1)](https://github.com/Roylyl/MacPlay/stargazers) |
-| [LinuxPlay](https://github.com/Roylyl/LinuxPlay) | Linux | 在Linux设备上使用CarPlay | [![LinuxPlay Stars](https://img.shields.io/github/stars/Roylyl/LinuxPlay?style=flat-square&label=Stars&color=65E5C1)](https://github.com/Roylyl/LinuxPlay/stargazers) |
-| [AndroidPlay](https://github.com/Roylyl/AndroidPlay) | Android | 面向手机与车机，支持系统热点、横屏全屏与多档帧率请求 | [![AndroidPlay Stars](https://img.shields.io/github/stars/Roylyl/AndroidPlay?style=flat-square&label=Stars&color=65E5C1)](https://github.com/Roylyl/AndroidPlay/stargazers) |
+<p align="center">点击卡片，进入项目。</p>
 
-### 端侧音频与语音
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Roylyl/SoundTest">SoundTest ↗</a></h3>
-      <p>面向iPhone、iPad与Apple Watch的声音事件和环境场景模型测试工具，统一录音、WAV导入、模型切换、批量推理与结果日志。</p>
-      <p><code>声音事件</code> <code>环境场景</code> <code>端侧推理</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Roylyl/ASRtest">ASRtest ↗</a></h3>
-      <p>完全离线运行的语音识别模型测试平台，面向iPhone、iPad与Apple Watch，提供多模型接入与统一测试记录。</p>
-      <p><code>离线ASR</code> <code>流式识别</code> <code>批量测试</code></p>
-    </td>
-  </tr>
-</table>
-
-### 工程工具与交互实验
-
-| 项目 | 我想解决的问题 |
-| --- | --- |
-| [DeerWebTranslator](https://github.com/Roylyl/DeerWebTranslator) | 用自己的大模型API进行网页原位翻译，在译文、原文和双语阅读之间切换 |
-| [READMEWriter](https://github.com/Roylyl/READMEWriter) | 把项目介绍、结构和文档检查整理成可复用的README写作技能 |
-| [MacDuo](https://github.com/Roylyl/MacDuo) | 基于开源项目探索MacBook铰链角度、实时透视与空间深度交互 |
-| [Astra-Music](https://github.com/Roylyl/Astra-Music) | 以《晚渡》为载体，探索FL Studio编曲与AI电脑操作，公开工程和MIDI |
-| [Pet-Kun](https://github.com/Roylyl/Pet-Kun) / [Pet-Wei](https://github.com/Roylyl/Pet-Wei) | 为Codex桌面端制作带工作状态动画的自定义伙伴 |
-
-<p align="right"><a href="https://github.com/Roylyl?tab=repositories">浏览全部仓库 →</a></p>
-
-<a id="toolbox"></a>
-## 技术工具｜围绕项目选择工具
-
-<p>
-  <a href="#toolbox"><img src="https://img.shields.io/badge/Embedded-ESP32%20%C2%B7%20ESP--IDF-65E5C1?style=flat-square&amp;labelColor=14212D" alt="嵌入式：ESP32与ESP-IDF"></a>
-  <a href="#toolbox"><img src="https://img.shields.io/badge/Hardware-KiCad%20%C2%B7%20PCB-65E5C1?style=flat-square&amp;labelColor=14212D" alt="硬件：KiCad与PCB设计"></a>
-  <a href="#toolbox"><img src="https://img.shields.io/badge/Audio-BLE%20%C2%B7%20A2DP-65E5C1?style=flat-square&amp;labelColor=14212D" alt="音频与控制：BLE与A2DP"></a>
-</p>
-<p>
-  <a href="#toolbox"><img src="https://img.shields.io/badge/Code-Python-7CB7FF?style=flat-square&amp;labelColor=14212D" alt="Python"></a>
-  <a href="#toolbox"><img src="https://img.shields.io/badge/Apple-Swift%20%C2%B7%20SwiftUI-7CB7FF?style=flat-square&amp;labelColor=14212D" alt="Swift与SwiftUI"></a>
-  <a href="#toolbox"><img src="https://img.shields.io/badge/Android-Kotlin-7CB7FF?style=flat-square&amp;labelColor=14212D" alt="Kotlin"></a>
-  <a href="#toolbox"><img src="https://img.shields.io/badge/Web-JavaScript-7CB7FF?style=flat-square&amp;labelColor=14212D" alt="JavaScript"></a>
+<p align="center"><a href="https://github.com/Roylyl/WinPlay"><img src="assets/winplay.svg" width="49%" alt="WinPlay：电脑，也可以是CarPlay接收端"></a>
+<a href="https://github.com/Roylyl/MacPlay"><img src="assets/macplay.svg" width="49%" alt="MacPlay：USB与Wi-Fi，两种连接方式"></a>
 </p>
 
-| 领域 | 工具与实践 |
-| --- | --- |
-| 电路与板级开发 | KiCad、嘉立创EDA、原理图、PCB Layout、焊接与Bring-up |
-| 嵌入式与音频链路 | ESP32、ESP-IDF、BLE、A2DP、PCM缓存与PWM调制 |
-| 模型工程 | ONNX Runtime、TensorFlow Lite、sherpa-onnx、音频前处理与模型适配 |
-| 多端开发 | Python、Swift/SwiftUI、Kotlin、JavaScript、Xcode、Android Studio |
-| 工程协作 | Git/GitHub、日志分析、问题复现；结合Codex与Claude Code推进原型开发 |
-| 音乐制作 | FL Studio、Logic Pro、电吉他、效果器、声卡与监听系统 |
+<p align="center"><a href="https://github.com/Roylyl/LinuxPlay"><img src="assets/linuxplay.svg" width="49%" alt="LinuxPlay：把CarPlay带到Linux设备"></a>
+<a href="https://github.com/Roylyl/AndroidPlay"><img src="assets/androidplay.svg" width="49%" alt="AndroidPlay：手机与车机的无线CarPlay"></a>
+</p>
 
-<a id="experience"></a>
-## 实践经历｜从使用场景走进工程细节
+<p align="center"><a href="https://github.com/Roylyl/SoundTest"><img src="assets/soundtest.svg" width="49%" alt="SoundTest：听见声音，也理解环境"></a>
+<a href="https://github.com/Roylyl/ASRtest"><img src="assets/asrtest.svg" width="49%" alt="ASRtest：多模型语音识别，离线运行"></a>
+</p>
+
+<p align="center"><a href="https://github.com/Roylyl/DeerWebTranslator"><img src="assets/translator.svg" width="49%" alt="DeerWebTranslator：用自己的模型API阅读世界"></a>
+<a href="https://github.com/Roylyl/READMEWriter"><img src="assets/readmewriter.svg" width="49%" alt="READMEWriter：让项目的第一印象更清晰"></a>
+</p>
+
+<p align="center"><a href="https://github.com/Roylyl/MacDuo"><img src="https://img.shields.io/badge/MacDuo%20%E2%86%97-8B5CF6?style=for-the-badge" alt="MacDuo ↗"></a> <a href="https://github.com/Roylyl/Astra-Music"><img src="https://img.shields.io/badge/Astra%20Music%20%E2%86%97-EC4899?style=for-the-badge" alt="Astra Music ↗"></a> <a href="https://github.com/Roylyl/Pet-Kun"><img src="https://img.shields.io/badge/Pet%20Kun%20%E2%86%97-10B981?style=for-the-badge" alt="Pet Kun ↗"></a> <a href="https://github.com/Roylyl/Pet-Wei"><img src="https://img.shields.io/badge/Pet%20Wei%20%E2%86%97-F59E0B?style=for-the-badge" alt="Pet Wei ↗"></a></p>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
+
+<h2 align="center">🧩 MY TECH PLAYGROUND</h2>
+
+<p align="center"><a href="https://roylyl.github.io/"><img src="https://skillicons.dev/icons?i=python,swift,kotlin,js,html,css,git,github,vscode,androidstudio&amp;theme=dark&amp;perline=10" width="78%" alt="Python、Swift、Kotlin、JavaScript、HTML、CSS、Git、GitHub、VS Code、Android Studio"></a></p>
+
+<p align="center"><a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge" alt="ESP32"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/ESP--IDF-D92332?style=for-the-badge" alt="ESP--IDF"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge" alt="KiCad"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/PCB%20DESIGN-2563EB?style=for-the-badge" alt="PCB DESIGN"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/BLE%20%2F%20A2DP-0082FC?style=for-the-badge" alt="BLE / A2DP"></a></p>
+
+<p align="center"><a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/ONNX%20Runtime-7C3AED?style=for-the-badge" alt="ONNX Runtime"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/TensorFlow%20Lite-FF6F00?style=for-the-badge" alt="TensorFlow Lite"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/sherpa--onnx-10B981?style=for-the-badge" alt="sherpa--onnx"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/SwiftUI-F05138?style=for-the-badge" alt="SwiftUI"></a></p>
+
+<p align="center"><a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/Codex-10A37F?style=for-the-badge" alt="Codex"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge" alt="Claude Code"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/FL%20Studio-FB923C?style=for-the-badge" alt="FL Studio"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/Logic%20Pro-A855F7?style=for-the-badge" alt="Logic Pro"></a></p>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
+
+<h2 align="center">📊 GITHUB DASHBOARD</h2>
+
+<p align="center">
+<a href="https://github.com/Roylyl"><img src="https://github-readme-stats.vercel.app/api?username=Roylyl&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=11162c&amp;title_color=67e8f9&amp;icon_color=c4a0ff" width="54%" alt="Roylyl的GitHub统计"></a>
+<a href="https://github.com/Roylyl?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roylyl&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=11162c&amp;title_color=67e8f9" width="41%" alt="公开仓库语言分布"></a>
+</p>
+<p align="center"><sub>公开GitHub数据 · 语言分布按仓库代码统计</sub></p>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
+
+<h2 align="center">🎸 OFFLINE MODE: ON STAGE</h2>
+
+<p align="center"><a href="https://roylyl.github.io/#music"><img src="assets/music-stage.jpg" width="49%" alt="Desk Park舞台演出"></a> <a href="https://roylyl.github.io/#music"><img src="assets/music-stage-2.jpg" width="49%" alt="罗宇伦吉他演出"></a></p>
+
+<p align="center">DP音乐工作室主理人 · Desk Park乐队吉他手</p>
+
+<p align="center"><a href="https://roylyl.github.io/#music"><img src="https://img.shields.io/badge/WATCH%20LIVE-EC4899?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="WATCH LIVE"></a> <a href="https://github.com/Roylyl/Astra-Music"><img src="https://img.shields.io/badge/ASTRA%20MUSIC-8B5CF6?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="ASTRA MUSIC"></a></p>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
+
+<details>
+<summary>📂 展开我的经历与项目背景</summary>
 
 | 时间 | 经历 | 工作方向 |
 | --- | --- | --- |
@@ -134,27 +96,12 @@
 | 2025.07—2025.08 | 长沙市印梦科技 · 设备调试与测试实习 | 超声波刀参数调试、性能测试与异常复现 |
 | 2024.09—2028（预计） | 湖南农业大学 · 智能科学与技术本科 | 卓越工程师学院，嵌入式、硬件与AI应用实践 |
 
-<a id="music"></a>
-## 音乐｜另一种理解声音的方式
+音享贴由我独立完成首版PCB、嵌入式音频链路和Android、iOS、微信小程序、Apple Watch控制端；超声波定向扬声器由我担任项目负责人。更多设计、演示与工程细节见[个人官网](https://roylyl.github.io/)。
 
-<p align="center">
-  <a href="https://roylyl.github.io/#music"><img src="assets/music-stage.jpg" width="760" alt="Desk Park舞台演出照片"></a>
-</p>
+</details>
 
-我是DP音乐工作室主理人、Desk Park乐队吉他手，也曾担任湖南农业大学校团委学生艺术团器乐队副队长，参与排练、演出组织和舞台调度。
+<p align="center">💬 欢迎交流硬件、嵌入式、音频与端侧AI，也欢迎相关实习机会。</p>
 
-从电吉他与效果器，到声卡、监听和DAW，音乐让我持续接触音频产品的实际使用场景。这些经验也影响着我对设备交互、声音体验和产品细节的判断。
+<p align="center"><a href="mailto:L3092105572@gmail.com"><img src="https://img.shields.io/badge/SAY%20HELLO-06B6D4?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="SAY HELLO"></a> <a href="https://roylyl.github.io/"><img src="https://img.shields.io/badge/VISIT%20MY%20WORLD-A855F7?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="VISIT MY WORLD"></a></p>
 
-[观看演出与音乐实践](https://roylyl.github.io/#music) · [查看Astra-Music编曲实验](https://github.com/Roylyl/Astra-Music)
-
-<a id="connect"></a>
-## 联系我
-
-欢迎交流消费电子、嵌入式、音频系统和端侧AI，也欢迎相关实习机会与开源项目合作。
-
-- 个人作品集：[roylyl.github.io](https://roylyl.github.io/)
-- 邮箱：[L3092105572@gmail.com](mailto:L3092105572@gmail.com)
-- Instagram：[@roylyl06](https://www.instagram.com/roylyl06/)
-- 产品思考：[我怎样做产品与选择方向](https://roylyl.github.io/philosophy.html)
-
-<p align="center"><sub>从一个使用问题出发，把想法做成可以体验的东西。</sub></p>
+<p align="center"><a href="https://roylyl.github.io/"><img src="assets/footer.svg" width="100%" alt="一起做些有意思的东西。硬件、音频、开源与音乐。"></a></p>
