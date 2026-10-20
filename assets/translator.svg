@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="565.656566" height="174" viewBox="0.000000 0 565.656566 174"><defs><clipPath id="edge"><rect width="560" height="174" rx="18.28571428571429"/></clipPath></defs><style>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="174" viewBox="0 0 560 174"><defs><clipPath id="edge"><rect width="560" height="174" rx="18.101010"/></clipPath></defs><style>
 @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
 @keyframes wave{0%,100%{transform:scaleY(.35)}45%{transform:scaleY(1)}}
 @keyframes travel{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}

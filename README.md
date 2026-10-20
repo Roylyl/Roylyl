@@ -8,13 +8,13 @@
 
 <p align="center"><img src="assets/arcade-title.svg" width="100%" alt="选一个入口，看看我在折腾什么"></p>
 
-<p align="center"><a href="https://roylyl.github.io/#projects"><img src="assets/hardware-portal.svg" width="50%" alt="硬件实验室：查看音享贴和定向扬声器"></a><a href="https://roylyl.github.io/#music"><img src="assets/music-portal.svg" width="50%" alt="音乐房间：查看音乐与现场演出"></a></p>
+<p align="center"><a href="https://roylyl.github.io/#projects"><img src="assets/hardware-portal.svg" width="49.5%" alt="硬件实验室：查看音享贴和定向扬声器"></a><img src="assets/column-gap.svg" width="1%" alt=""><a href="https://roylyl.github.io/#music"><img src="assets/music-portal.svg" width="49.5%" alt="音乐房间：查看音乐与现场演出"></a></p>
 
 <p align="center"><a href="https://github.com/Roylyl/WinPlay"><img src="assets/winplay-strip.svg" width="25%" alt="WinPlay：Windows版CarPlay，打开仓库"></a><a href="https://github.com/Roylyl/MacPlay"><img src="assets/macplay-strip.svg" width="25%" alt="MacPlay：macOS版CarPlay，打开仓库"></a><a href="https://github.com/Roylyl/LinuxPlay"><img src="assets/linuxplay-strip.svg" width="25%" alt="LinuxPlay：Linux版CarPlay，打开仓库"></a><a href="https://github.com/Roylyl/AndroidPlay"><img src="assets/androidplay-strip.svg" width="25%" alt="AndroidPlay：Android版CarPlay，打开仓库"></a></p>
 
-<p align="center"><a href="https://github.com/Roylyl/SoundTest"><img src="assets/soundtest.svg" width="50%" alt="SoundTest：这是什么声音？"></a><a href="https://github.com/Roylyl/ASRtest"><img src="assets/asrtest.svg" width="50%" alt="ASRtest：听你说，把话记下来。"></a></p>
+<p align="center"><a href="https://github.com/Roylyl/SoundTest"><img src="assets/soundtest.svg" width="49.5%" alt="SoundTest：这是什么声音？"></a><img src="assets/column-gap.svg" width="1%" alt=""><a href="https://github.com/Roylyl/ASRtest"><img src="assets/asrtest.svg" width="49.5%" alt="ASRtest：让声音变成文字。"></a></p>
 
-<p align="center"><a href="https://github.com/Roylyl/DeerWebTranslator"><img src="assets/translator.svg" width="50%" alt="DeerWebTranslator：给网页装个翻译器。"></a><a href="https://github.com/Roylyl/READMEWriter"><img src="assets/readmewriter.svg" width="50%" alt="READMEWriter：给项目换张好看的名片。"></a></p>
+<p align="center"><a href="https://github.com/Roylyl/DeerWebTranslator"><img src="assets/translator.svg" width="49.5%" alt="DeerWebTranslator：换种语言，继续探索。"></a><img src="assets/column-gap.svg" width="1%" alt=""><a href="https://github.com/Roylyl/READMEWriter"><img src="assets/readmewriter.svg" width="49.5%" alt="READMEWriter：给项目换张好看的名片。"></a></p>
 
 <p align="center"><img src="assets/tools-title.svg" width="100%" alt="背包里的一些工具"></p>
 
@@ -25,7 +25,7 @@
 <p align="center"><img src="assets/stats-title.svg" width="100%" alt="开源旅程，持续存档"></p>
 
 <p align="center">
-<a href="https://github.com/Roylyl"><img src="https://github-readme-stats.vercel.app/api?username=Roylyl&amp;show_icons=true&amp;disable_animations=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=11162c&amp;title_color=67e8f9&amp;icon_color=c4a0ff&amp;border_radius=16.64&amp;card_width=520" width="49.5%" alt="Roylyl的GitHub统计"></a><img src="assets/column-gap.svg" width="1%" alt=""><a href="https://github.com/Roylyl?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roylyl&amp;layout=compact&amp;disable_animations=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=11162c&amp;title_color=67e8f9&amp;border_radius=14.08&amp;card_width=440" width="49.5%" alt="公开仓库语言分布"></a>
+<a href="https://github.com/Roylyl"><img src="https://github-readme-stats.vercel.app/api?username=Roylyl&amp;show_icons=true&amp;disable_animations=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=11162c&amp;title_color=67e8f9&amp;icon_color=c4a0ff&amp;border_radius=16.808081&amp;card_width=520" width="49.5%" alt="Roylyl的GitHub统计"></a><img src="assets/column-gap.svg" width="1%" alt=""><a href="https://github.com/Roylyl?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roylyl&amp;layout=compact&amp;disable_animations=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=11162c&amp;title_color=67e8f9&amp;border_radius=14.222222&amp;card_width=440" width="49.5%" alt="公开仓库语言分布"></a>
 </p>
 
 <p align="center"><a href="https://roylyl.github.io/"><img src="assets/footer.svg" width="100%" alt="更多作品、现场与故事：进入我的个人网站"></a></p>
