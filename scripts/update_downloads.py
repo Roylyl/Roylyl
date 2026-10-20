@@ -44,7 +44,7 @@ def main():
         "schemaVersion": 1,
         "label": "Downloads",
         "message": f"{total:,}",
-        "color": "a78bfa",
+        "color": "0071e3",
         "namedLogo": "github",
     }, indent=2) + "\n", encoding="utf-8")
     print(f"Public release-asset downloads: {total:,}")

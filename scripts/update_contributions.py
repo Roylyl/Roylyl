@@ -44,32 +44,32 @@ class Calendar(HTMLParser):
         return ordered
 
 
-def text(x, y, value, size=16, color='#dce4ff', extra=''):
-    return f'<text x="{x}" y="{y}" font-family="Segoe UI,Microsoft YaHei,Arial,sans-serif" font-size="{size}" fill="{color}" {extra}>{escape(str(value))}</text>'
+def text(x, y, value, size=16, color='#1d1d1f', extra=''):
+    return f'<text x="{x}" y="{y}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Microsoft YaHei,Arial,sans-serif" font-size="{size}" fill="{color}" {extra}>{escape(str(value))}</text>'
 
 
 def svg(w, h, title, body):
-    return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img"><title>{escape(title)}</title><defs><clipPath id="module-corners"><rect width="{w}" height="{h}" rx="{w * .016}"/></clipPath></defs><g clip-path="url(#module-corners)"><rect width="{w}" height="{h}" fill="#11162c"/>{body}</g></svg>\n'
+    return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img"><title>{escape(title)}</title><defs><clipPath id="module-corners"><rect width="{w}" height="{h}" rx="{w * .026}"/></clipPath></defs><g clip-path="url(#module-corners)"><rect width="{w}" height="{h}" fill="#f5f5f7"/>{body}</g></svg>\n'
 
 
 def heatmap(calendar, stamp):
     days = calendar.validate()
     start = days[0] - timedelta(days=(days[0].weekday() + 1) % 7)
-    body = text(26, 34, 'CONTRIBUTION RADAR', 20, '#67e8f9', 'font-weight="700" letter-spacing="2"')
-    palette = ['#242b46', '#22566c', '#258ba2', '#43c5cd', '#8df7df']
+    body = text(26, 34, '创造的足迹', 20, '#1c1c1e', 'font-weight="600"')
+    palette = ['#e5e5ea', '#c2dcfa', '#82b9f3', '#3690ea', '#0071e3']
     last_month = None
     for day in days:
         col, row = divmod((day - start).days, 7)
         x, y = 53 + col * 17, 75 + row * 17
         if day.month != last_month and day.day <= 7:
-            body += text(x, 62, day.strftime('%b'), 10, '#93a4cc')
+            body += text(x, 62, day.strftime('%b'), 10, '#6e6e73')
             last_month = day.month
         body += f'<rect x="{x}" y="{y}" width="13" height="13" rx="3" fill="{palette[calendar.days[day]]}"><title>{day.isoformat()} · level {calendar.days[day]}/4</title></rect>'
     for row, name in [(1, 'Mon'), (3, 'Wed'), (5, 'Fri')]:
-        body += text(15, 85 + row * 17, name, 10, '#93a4cc')
-    body += '<style>@keyframes radar{from{transform:translateX(0)}to{transform:translateX(901px)}}.scan{animation:radar 8s linear infinite}@media(prefers-reduced-motion:reduce){.scan{animation:none;display:none}}</style><rect class="scan" x="53" y="72" width="3" height="122" rx="1.5" fill="#f472b6" opacity=".7"/>'
-    body += text(26, 225, f'{days[0]} → {days[-1]} · GitHub公开展示的贡献强度', 12, '#93a4cc')
-    body += text(26, 251, f'更新于{stamp}', 11, '#7f90b8')
+        body += text(15, 85 + row * 17, name, 10, '#6e6e73')
+    body += '<style>@keyframes radar{from{transform:translateX(0)}to{transform:translateX(901px)}}.scan{animation:radar 8s linear infinite}@media(prefers-reduced-motion:reduce){.scan{animation:none;display:none}}</style><rect class="scan" x="53" y="72" width="3" height="122" rx="1.5" fill="#0071e3" opacity=".7"/>'
+    body += text(26, 225, f'{days[0]}至{days[-1]} · GitHub公开展示的贡献强度', 12, '#6e6e73')
+    body += text(26, 251, f'更新于{stamp}', 11, '#86868b')
     for i, color in enumerate(palette):
         body += f'<rect x="{850+i*18}" y="218" width="13" height="13" rx="3" fill="{color}"/>'
     return svg(1000, 272, 'Roylyl贡献热力图：真实贡献等级与动态扫描线', body)
