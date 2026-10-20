@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none">
+  <title>Roy Luo — Hardware, Audio and Code</title>
+  <desc>罗宇伦的个人工程作品集。硬件、嵌入式、端侧AI音频与多平台开发。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse"><stop stop-color="#101D2D"/><stop offset="1" stop-color="#081217"/></linearGradient>
+    <linearGradient id="wave" x1="740" y1="190" x2="1120" y2="190" gradientUnits="userSpaceOnUse"><stop stop-color="#65E5C1"/><stop offset="1" stop-color="#6AA8FF"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#8AB8C7" stroke-opacity=".065"/></pattern>
+  </defs>
+  <rect width="1200" height="380" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="24" fill="url(#grid)"/>
+  <path d="M55 49H85" stroke="#65E5C1" stroke-width="4"/>
+  <text x="99" y="55" fill="#65E5C1" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="3">ROYLYL / ENGINEERING PORTFOLIO</text>
+  <text x="55" y="151" fill="#F1F6FA" font-family="Segoe UI,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-3">Roy Luo</text>
+  <text x="59" y="197" fill="#C0D1DD" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="25">罗宇伦 · 从电路到代码，从声音到体验</text>
+  <text x="59" y="246" fill="#839EAD" font-family="Segoe UI,Arial,sans-serif" font-size="18">Hardware · Embedded Systems · On-device AI Audio</text>
+  <rect x="56" y="293" width="143" height="34" rx="17" stroke="#37524F" fill="#142C2B"/>
+  <text x="127" y="315" text-anchor="middle" fill="#8CEBD1" font-family="Segoe UI,Arial,sans-serif" font-size="13">BUILD THE CIRCUIT</text>
+  <rect x="211" y="293" width="146" height="34" rx="17" stroke="#334A62" fill="#182839"/>
+  <text x="284" y="315" text-anchor="middle" fill="#A4CAFF" font-family="Segoe UI,Arial,sans-serif" font-size="13">CONNECT THE CODE</text>
+  <rect x="369" y="293" width="144" height="34" rx="17" stroke="#3B455B" fill="#202739"/>
+  <text x="441" y="315" text-anchor="middle" fill="#CACDF3" font-family="Segoe UI,Arial,sans-serif" font-size="13">SHAPE THE SOUND</text>
+  <circle cx="948" cy="190" r="136" stroke="#65E5C1" stroke-opacity=".12"/>
+  <circle cx="948" cy="190" r="104" stroke="#65E5C1" stroke-opacity=".18" stroke-dasharray="3 9"/>
+  <path d="M734 190H784L804 169L824 211L844 140L864 240L884 111L904 268L924 147L944 223L964 164L984 207L1004 133L1024 249L1044 166L1064 211L1084 190H1140" stroke="url(#wave)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="734" cy="190" r="5" fill="#65E5C1"/><circle cx="1140" cy="190" r="5" fill="#6AA8FF"/>
+  <text x="948" y="350" text-anchor="middle" fill="#78929F" font-family="Consolas,monospace" font-size="12" letter-spacing="3">CIRCUITS / SIGNALS / SOFTWARE</text>
+</svg>
