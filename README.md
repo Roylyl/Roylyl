@@ -25,7 +25,7 @@
 <p align="center"><img src="assets/stats-title.svg" width="100%" alt="持续创造：每一次积累，都留下痕迹。"></p>
 
 <p align="center">
-<a href="https://github.com/Roylyl"><img src="https://github-readme-stats.vercel.app/api?username=Roylyl&amp;show_icons=true&amp;disable_animations=true&amp;theme=default&amp;hide_border=true&amp;bg_color=f5f5f7&amp;title_color=1d1d1f&amp;text_color=6e6e73&amp;icon_color=0071e3&amp;ring_color=0071e3&amp;border_radius=27.313131&amp;card_width=520" width="49.5%" alt="Roylyl的GitHub统计"></a><img src="assets/column-gap.svg" width="1%" alt=""><a href="https://github.com/Roylyl?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roylyl&amp;layout=compact&amp;disable_animations=true&amp;theme=default&amp;hide_border=true&amp;bg_color=f5f5f7&amp;title_color=1d1d1f&amp;text_color=6e6e73&amp;border_radius=23.111111&amp;card_width=440" width="49.5%" alt="公开仓库语言分布"></a>
+<a href="https://github.com/Roylyl"><img src="assets/github-stats.svg" width="49.5%" alt="Roylyl的GitHub统计"></a><img src="assets/column-gap.svg" width="1%" alt=""><a href="https://github.com/Roylyl?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roylyl&amp;layout=compact&amp;disable_animations=true&amp;theme=default&amp;hide_border=true&amp;bg_color=f5f5f7&amp;title_color=1d1d1f&amp;text_color=6e6e73&amp;border_radius=23.111111&amp;card_width=440" width="49.5%" alt="公开仓库语言分布"></a>
 </p>
 
 <p align="center"><a href="https://roylyl.github.io/"><img src="assets/footer.svg" width="100%" alt="更多作品、现场与故事：进入我的个人网站"></a></p>
