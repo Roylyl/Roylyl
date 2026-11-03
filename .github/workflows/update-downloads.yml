@@ -25,6 +25,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -38,14 +40,31 @@ jobs:
         run: |
           python scripts/update_downloads.py
           python scripts/update_contributions.py
-      - name: Save badge data when changed
+      - name: Publish generated data to profile-data
         if: ${{ !cancelled() }}
+        env:
+          OUTPUT_DIR: ${{ runner.temp }}/profile-data
         run: |
-          git add assets/downloads.json assets/contributions.svg assets/github-stats.svg
-          if git diff --cached --quiet; then
+          set -euo pipefail
+          # Keep generated commits away from main and its local checkouts.
+          git init "$OUTPUT_DIR"
+          git -C "$OUTPUT_DIR" remote add origin "$(git remote get-url origin)"
+          AUTH_HEADER="$(git config --get http.https://github.com/.extraheader)"
+          git -C "$OUTPUT_DIR" config http.https://github.com/.extraheader "$AUTH_HEADER"
+          REMOTE_REF="$(git -C "$OUTPUT_DIR" ls-remote --heads origin refs/heads/profile-data)"
+          if [ -n "$REMOTE_REF" ]; then
+            git -C "$OUTPUT_DIR" fetch --depth=1 origin refs/heads/profile-data
+            git -C "$OUTPUT_DIR" checkout -b profile-data FETCH_HEAD
+          else
+            git -C "$OUTPUT_DIR" checkout --orphan profile-data
+          fi
+          mkdir -p "$OUTPUT_DIR/assets"
+          cp assets/downloads.json assets/contributions.svg assets/github-stats.svg assets/languages.svg "$OUTPUT_DIR/assets/"
+          git -C "$OUTPUT_DIR" add assets/
+          if git -C "$OUTPUT_DIR" diff --cached --quiet; then
             exit 0
           fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'docs: update profile visuals'
-          git push
+          git -C "$OUTPUT_DIR" config user.name 'github-actions[bot]'
+          git -C "$OUTPUT_DIR" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$OUTPUT_DIR" commit -m 'chore: refresh generated profile data'
+          git -C "$OUTPUT_DIR" push origin HEAD:refs/heads/profile-data
