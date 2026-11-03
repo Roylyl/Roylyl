@@ -21,11 +21,3 @@
 <p align="center"><a href="https://roylyl.github.io/"><img src="assets/tools-languages.svg" width="45%" alt="Python、Swift、Kotlin、JavaScript、HTML、CSS"></a></p>
 
 <p align="center"><a href="https://roylyl.github.io/"><img src="assets/tools-platforms.svg" width="29.5%" alt="Git、GitHub、VS Code、Android Studio"></a> <a href="https://chatgpt.com/"><img src="assets/chatgpt-icon.svg" width="6.7%" alt="ChatGPT"></a> <a href="https://claude.ai/"><img src="assets/claude-icon.svg" width="6.7%" alt="Claude"></a> <a href="https://developer.apple.com/xcode/"><img src="assets/xcode-icon.svg" width="6.7%" alt="Xcode"></a></p>
-
-<p align="center"><img src="assets/stats-title.svg" width="100%" alt="持续创造：每一次积累，都留下痕迹。"></p>
-
-<p align="center">
-<a href="https://github.com/Roylyl"><img src="https://raw.githubusercontent.com/Roylyl/Roylyl/profile-data/assets/github-stats.svg" width="49.5%" alt="Roylyl的GitHub统计"></a><img src="assets/column-gap.svg" width="1%" alt=""><a href="https://github.com/Roylyl?tab=repositories"><img src="https://raw.githubusercontent.com/Roylyl/Roylyl/profile-data/assets/languages.svg" width="49.5%" alt="公开仓库语言分布"></a>
-</p>
-
-<p align="center"><a href="https://roylyl.github.io/"><img src="assets/footer.svg" width="100%" alt="更多作品、现场与故事：进入我的个人网站"></a></p>
