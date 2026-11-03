@@ -54,7 +54,7 @@ jobs:
             git -C "$OUTPUT_DIR" checkout --orphan profile-data
           fi
           mkdir -p "$OUTPUT_DIR/assets"
-          cp assets/downloads.json assets/contributions.svg "$OUTPUT_DIR/assets/"
+          cp assets/downloads.json assets/downloads.svg assets/contributions.svg "$OUTPUT_DIR/assets/"
           git -C "$OUTPUT_DIR" add assets/
           if git -C "$OUTPUT_DIR" diff --cached --quiet; then
             exit 0
